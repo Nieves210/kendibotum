@@ -18,7 +18,7 @@ async def on_ready():
 
 @bot.command()
 async def merhaba(ctx):
-    await ctx.send(f'Merhaba! Ben {bot.user}. Bana oynamak istediğin oyunu söyle! Birlikte yazı tura, taş kağıt makas, zar atma oynayabiliriz. Kitap tavsiyesi de verebilirim :)')
+    await ctx.send(f'Merhaba! Ben {bot.user}. Bana oynamak istediğin oyunu söyle! Birlikte yazı tura, taş kağıt makas, zar atma oynayabiliriz.')
     
 
 @bot.command()
